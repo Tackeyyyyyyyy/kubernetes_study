@@ -32,6 +32,15 @@ kubectl get nodes
 kubectl describe nodes
 ```
 
+- Podの作成
+```
+kubectl create -f [Manifest]
+```
+
+- サービスの確認
+```
+kubectl get svc
+```
 - “Watch” で常に表示
 ```
 watch -t 'kubectl get pod'
