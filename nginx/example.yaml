@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: "example/nginx:v1.0"
-      imagePullPolicy: IfNotPresent
+      image: "example/nginx:v1.1"
+
